@@ -18,8 +18,6 @@ body {
 /*Header Menu Section*/
 
 .headermenu {
-  width: 1920px;
-  height: 44px;
   display: flex;
   justify-content: center;
   gap: 24px;
@@ -38,8 +36,6 @@ body {
 }
 
 #mid {
-  width: 100vw;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -47,8 +43,6 @@ body {
 }
 
 #sentence {
-  width: 1920px;
-  height: 52px;
   display: flex;
   justify-content: center;
 }
@@ -56,11 +50,11 @@ body {
 #donate {
   font-size: 14px;
   font-weight: 400;
-  margin-top: 16px;
+  margin-bottom: 8px;
 }
 
 #body {
-  width: 1920px;
+  width: 100vw;
   height: 2100px;
   display: flex;
   flex-direction: column;
@@ -68,17 +62,18 @@ body {
 }
 
 #ip {
-  width: 1920px;
+  width: 100vw;
   height: 692px;
-  background-image: url(./pictures/ip16background.png);
+  background: url(./pictures/ip16background.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   display: flex;
   justify-content: center;
 }
 
 .iptextcontainer {
-  width: 405px;
-  height: 172px;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -103,8 +98,6 @@ body {
 }
 
 .buttoncontainer {
-  width: 207px;
-  height: 44px;
   display: flex;
   gap: 16px;
 }
@@ -132,17 +125,45 @@ body {
 }
 
 #ip2 {
-  width: 1920px;
+  width: 100vw;
   height: 692px;
-  background-image: url(./pictures/ip16.2.png);
-  background-size: cover;
-}
-
-#third {
-  width: 1920px;
-  height: 692px;
-  background-image: url(./pictures/third.png);
+  background: url(./pictures/ip16.2.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   display: flex;
   justify-content: center;
 }
+
+#third {
+  width: 100vw;
+  height: 692px;
+  background: url(./pictures/third.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#magictext {
+  font-size: 52px;
+  font-weight: 600;
+  margin-top: 446px;
+}
+
+#shops{
+  width: 114px;
+  height: 44px;
+  background-color: #0071E3;
+  border-radius: 40px;
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+

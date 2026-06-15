@@ -434,7 +434,6 @@ body {
   gap: 20px;
 }
 
-
 #streambutton {
   width: 123px;
   height: 44px;
@@ -448,14 +447,12 @@ body {
   margin-bottom: 58px;
 }
 
-
-#comedytext{
+#comedytext {
   font-size: 17px;
   font-weight: 700;
   color: #ffffff;
   margin-bottom: 68px;
 }
-
 
 .pic3 {
   width: 1250px;
@@ -464,13 +461,13 @@ body {
   flex: 0 0 auto;
 }
 
-.tablistcon{
+.tablistcon {
   width: 100vw;
   height: 32px;
   display: flex;
   justify-content: center;
 }
-#tablist{
+#tablist {
   width: 220px;
   height: 8px;
   padding: 12px;
@@ -479,26 +476,116 @@ body {
   justify-content: center;
 }
 
-.tab{
+.tab {
   width: 8px;
   height: 8px;
   background-color: gray;
   border-radius: 50%;
 }
 
-.footercon{
+.footercon {
   width: 100vw;
   height: 292px;
-  background-color: black;
   gap: 16px;
+  display: flex;
+  overflow-x: scroll;
+  scrollbar-width: none;
 }
 
-.img1{
+.img1 {
   width: 417px;
   height: 236px;
   background-image: url(./pictures/fitness1.jpg);
   background-size: cover;
+  flex: 0 0 auto;
+  display: flex;
+}
+.img1footer {
+  width: 223.7px;
+  height: 18px;
+  margin-top: 188px;
+}
+
+.imptext {
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 15px;
+  color: #ffffff;
 }
 
 
 
+.img2 {
+  width: 417px;
+  height: 236px;
+  background-color: #1b2632;
+  background-size: cover;
+  flex: 0 0 auto;
+}
+
+.img3 {
+  width: 417px;
+  height: 236px;
+  background-image: url(./pictures/arcade3.jpg);
+  background-size: cover;
+  flex: 0 0 auto;
+}
+
+.img4 {
+  width: 417px;
+  height: 236px;
+  background-image: url(./pictures/fitness4.jpg);
+  background-size: cover;
+  flex: 0 0 auto;
+}
+
+.img5 {
+  width: 417px;
+  height: 236px;
+  background-image: url(./pictures/music5.jpg);
+  background-size: cover;
+  flex: 0 0 auto;
+}
+
+.img6 {
+  width: 417px;
+  height: 236px;
+  background-image: url(./pictures/fitness1.jpg);
+  background-size: cover;
+  flex: 0 0 auto;
+}
+
+.img7 {
+  width: 417px;
+  height: 236px;
+  background-color: #1b2632;
+  background-size: cover;
+  flex: 0 0 auto;
+}
+
+.img8 {
+  width: 417px;
+  height: 236px;
+  background-image: url(./pictures/arcade3.jpg);
+  background-size: cover;
+  flex: 0 0 auto;
+}
+
+.img9 {
+  width: 417px;
+  height: 236px;
+  background-image: url(./pictures/fitness4.jpg);
+  background-size: cover;
+  flex: 0 0 auto;
+}
+
+.img2{
+  display: flex  ;
+  align-items: center;
+  padding-left: 15px;
+}
+
+#rnbtext{
+  font-size: 14px ;
+  font-weight: 600;
+}

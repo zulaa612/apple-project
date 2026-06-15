@@ -474,7 +474,31 @@ body {
   width: 220px;
   height: 8px;
   padding: 12px;
-  background-color: black;
+  gap: 14px;
+  display: flex;
+  justify-content: center;
 }
+
+.tab{
+  width: 8px;
+  height: 8px;
+  background-color: gray;
+  border-radius: 50%;
+}
+
+.footercon{
+  width: 100vw;
+  height: 292px;
+  background-color: black;
+  gap: 16px;
+}
+
+.img1{
+  width: 417px;
+  height: 236px;
+  background-image: url(./pictures/fitness1.jpg);
+  background-size: cover;
+}
+
 
 

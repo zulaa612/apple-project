@@ -4,7 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="/index.css" rel="stylesheet" />
+    <link href="/desktop.css" rel="stylesheet" />
+    <link
+      href="/mobile.css"
+      rel="stylesheet"
+      media="screen and (min-width: 390px) and (max-width: 767px)"
+    />
+    <link
+      href="/tablet.css"
+      rel="stylesheet"
+      media="screen and (min-width: 768px)"
+    />
   </head>
   <body>
     <div id="headercontainer">
@@ -25,11 +35,20 @@
           <span class="headertext">Entertainment</span>
           <span class="headertext">Accessories</span>
           <span class="headertext">Support</span>
+        </div>
+        <div>
           <span id="search">
             <img width="30px" height="44px" src="/pictures/searchbutton.png" />
           </span>
           <span id="shop">
             <img width="30px " height="44px" src="/pictures/shop.png" />
+          </span>
+          <span id="menu">
+            <img
+              width="30px "
+              height="44px"
+              src="/pictures/Button - Menu.png"
+            />
           </span>
         </div>
       </div>
@@ -66,9 +85,30 @@
           </div>
         </div>
         <div id="third">
-          <div id="magictext">Gift magic.</div>
-          <div id="wish">Make their holiday wish come true.</div>
-          <div id="shops">Shop gifts</div>
+          <div id="thirdtexts">
+            <div id="magictext">Gift magic.</div>
+            <div id="wish">Make their holiday wish come true.</div>
+            <div id="shops">Shop gifts</div>
+          </div>
+          <div id="thirdtext">
+            <img
+              id="ipadair"
+              src="./pictures/ipadair.png"
+              width="100%"
+              height="39"
+              style="margin-top: 70px"
+            />
+            <span style="font-size: 18px; margin-top: 8px"
+              >Two sizes. Faster Chip. Does it all.</span
+            >
+            <div id="buttoncontainer01">
+              <div id="learnmore01">Learn More</div>
+              <div id="buy01">Buy</div>
+            </div>
+            <div id="hellotext" class="hellotext-gradient-text1">
+              Hello, Apple Intelligence.
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -77,41 +117,70 @@
 
     <div id="container">
       <div id="box1">
-        <img
-          src="./pictures/ipadair.png"
-          width="430"
-          height="33"
-          style="margin-top: 58px"
-        />
-        <span style="margin-top: 9px; font-size: 18px"
-          >Two sizes. Faster Chip. Does it all.</span
-        >
-        <div id="buttoncontainer1">
-          <div id="learnmore1">Learn More</div>
-          <div id="buy1">Buy</div>
+        <div class="box1texts">
+          <img
+            src="./pictures/ipadair.png"
+            width="430"
+            height="33"
+            style="margin-top: 58px"
+          />
+          <span style="margin-top: 9px; font-size: 18px"
+            >Two sizes. Faster Chip. Does it all.</span
+          >
+          <div id="buttoncontainer1">
+            <div id="learnmore1">Learn More</div>
+            <div id="buy1">Buy</div>
+          </div>
+          <div id="hellotext" class="hellotext-gradient-text">
+            Hello, Apple Intelligence.
+          </div>
         </div>
-        <div id="hellotext" class="hellotext-gradient-text">
-          Hello, Apple Intelligence.
+
+        <div id="box1text">
+          <div id="aipods4">AirPods 4</div>
+          <div id="iconic">
+            Iconic. Now supersonic. Available with Active Noise Cancellation.2
+          </div>
+          <div id="buttoncontainer1">
+            <div id="learnmore001">Learn More</div>
+            <div id="buy001">Buy</div>
+          </div>
         </div>
       </div>
       <div id="box2">
-        <div id="airpods">AirPods Pro 2</div>
-        <div id="nowtext">Now with a Hearing Aid feature.2</div>
-        <div id="buttoncontainer3">
-          <div id="learnmore1">Learn More</div>
-          <div id="buy1">Buy</div>
+        <div class="box2texts">
+          <div id="airpods">AirPods Pro 2</div>
+          <div id="nowtext">Now with a Hearing Aid feature.2</div>
+          <div id="buttoncontainer3">
+            <div id="learnmore1">Learn More</div>
+            <div id="buy1">Buy</div>
+          </div>
+        </div>
+        <div class="box2text">
+          <div id="watch001">
+            <div id="applelogo2222"></div>
+            <div id="aplletext00">WATCH</div>
+          </div>
+          <h2 id="seriestext00">SERIES 10</h2>
+          <div id="classictext00">Thinstant classic.</div>
+          <div id="buttoncontainer4">
+            <div id="learnmore001">Learn More</div>
+            <div id="buy001">Buy</div>
+          </div>
         </div>
       </div>
       <div id="box3">
-        <div id="watch">
-          <div id="applelogo2"></div>
-          <div id="aplletext">WATCH</div>
-        </div>
-        <h2 id="seriestext">SERIES 10</h2>
-        <div id="classictext">Thinstant classic.</div>
-        <div id="buttoncontainer4">
-          <div id="learnmore1">Learn More</div>
-          <div id="buy1">Buy</div>
+        <div class="box3texts">
+          <div id="watch">
+            <div id="applelogo2"></div>
+            <div id="aplletext">WATCH</div>
+          </div>
+          <h2 id="seriestext">SERIES 10</h2>
+          <div id="classictext">Thinstant classic.</div>
+          <div id="buttoncontainer4">
+            <div id="learnmore1">Learn More</div>
+            <div id="buy1">Buy</div>
+          </div>
         </div>
       </div>
 

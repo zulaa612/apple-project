@@ -1,0 +1,26 @@
+@media (max-width: 390px) {
+  #headercontainer {
+    background-color: white;
+  }
+
+  .headermenu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  #headertexts {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    display: none;
+  }
+  .headertext {
+    font-size: 12px;
+    font-weight: 400px;
+    color: #000;
+    display: none;
+  }
+  #menu {
+    opacity: 1;
+  }
+}

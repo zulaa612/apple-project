@@ -3,21 +3,27 @@
     margin: 0;
     padding: 0;
   }
+  html,
   body {
     font-family:
       -apple-system, BlinkMacSystemFont, "Segoe UI", "SF Pro Text",
       "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    width: 100%;
   }
   #headercontainer {
     background-color: white;
   }
 
   .headermenu {
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
   }
+
   #headertexts {
     display: flex;
     align-items: center;
@@ -315,8 +321,8 @@
     color: #ffffff;
     font-size: 14px;
   }
-  #buy001 {
-    width: 107px;
+  #buy003 {
+    width: 66px;
     height: 36px;
     border: 1px solid #2997ff;
     border-radius: 40px;
@@ -331,13 +337,428 @@
     width: 366px;
     height: 490px;
     background-image: url(./pictures/maaac.png);
+    background-size: cover;
   }
 
   .box3texts {
     opacity: 0;
   }
-  .box3texts{
-    opacity: 3;
-    
+  .box3text {
+    opacity: 1;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #macBookair1 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #1d1d1f;
+    margin-top: 48px;
+    font-weight: 700;
+  }
+
+  #box4 {
+    width: 366px;
+    height: 490px;
+    background-image: url(./pictures/smallbusiness.png);
+    background-size: cover;
+  }
+  .box4texts {
+    opacity: 0;
+  }
+  .box4text {
+    opacity: 1;
+    position: absolute;
+    width: 257px;
+    height: 168px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 42px;
+  }
+  #smallb {
+    font-size: 30px;
+    color: black;
+    font-weight: 700;
+  }
+
+  #hardw {
+    font-size: 18px;
+    color: #000;
+    font-weight: 400;
+  }
+  #learnmore004 {
+    width: 107px;
+    height: 36px;
+    background-color: #0071e3;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 14px;
+  }
+
+  #box5 {
+    width: 366px;
+    height: 580px;
+    background-image: url(./pictures/carrier.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .box5texts {
+    opacity: 0;
+  }
+  .box5text {
+    opacity: 1;
+    position: absolute;
+    width: 314px;
+    height: 152px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 396px;
+  }
+  #carrier {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  #get {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  #find {
+    width: 107px;
+    height: 36px;
+    background-color: #0071e3;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  #box6 {
+    width: 366px;
+    height: 580px;
+    background-image: url(./pictures/trade.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box6texts {
+    opacity: 0;
+  }
+  .box6text {
+    position: absolute;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  #trade {
+    font-size: 28px;
+    font-weight: 700;
+  }
+  #applelogo3 {
+    width: 22px;
+    height: 27px;
+    background-image: url(./pictures/applelogo2.png);
+    background-size: cover;
+    margin-top: 4px;
+  }
+  #estimatebutton1 {
+    width: 150px;
+    height: 36px;
+    border-radius: 40px;
+    background-color: #0071e3;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+  }
+  .threecon {
+    display: none;
+  }
+
+  .con2 {
+    opacity: 1;
+    width: 100vw;
+    height: 368px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .parent {
+    gap: 16px;
+    display: flex;
+    overflow-x: scroll;
+    scrollbar-width: none;
+  }
+
+  .ppp {
+    gap: 16px;
+    display: flex;
+    overflow-x: auto;
+    scrollbar-width: none;
+    flex-shrink: 0;
+  }
+  .pic11 {
+    width: 689px;
+    height: 368px;
+    background-image: url(./pictures/blitz.png);
+    flex: 0 0 auto;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    gap: 20px;
+  }
+
+  #streambutton2 {
+    width: 108px;
+    height: 36px;
+    background-color: #f5f5f5;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+    margin-left: 30px;
+    margin-bottom: 27px;
+  }
+  #dramatext {
+    width: 401px;
+    height: 40px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 21px;
+  }
+
+  .pic22 {
+    width: 689px;
+    height: 368px;
+    background-image: url(./pictures/silo.jpg);
+    flex: 0 0 auto;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    gap: 20px;
+  }
+  .pic33 {
+    width: 689px;
+    height: 368px;
+    background-image: url(./pictures/badsisters.jpg);
+    flex: 0 0 auto;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    gap: 20px;
+  }
+  .pic4 {
+    width: 689px;
+    height: 368px;
+    background-image: url(./pictures/shrinkin2.jpg);
+    flex: 0 0 auto;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    gap: 20px;
+  }
+  .pic5 {
+    width: 689px;
+    height: 368px;
+    background-image: url(./pictures/pass.jpg);
+    flex: 0 0 auto;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    gap: 20px;
+  }
+  .pic6 {
+    width: 689px;
+    height: 368px;
+    background-image: url(./pictures/charlie.jpg);
+    flex: 0 0 auto;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    gap: 20px;
+  }
+  .pic7 {
+    width: 689px;
+    height: 368px;
+    background-image: url(./pictures/dis.jpg);
+    flex: 0 0 auto;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    gap: 20px;
+  }
+  .pic8 {
+    width: 689px;
+    height: 368px;
+    background-image: url(./pictures/slo.jpg);
+    flex: 0 0 auto;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    gap: 20px;
+  }
+  .pic9 {
+    width: 689px;
+    height: 368px;
+    background-image: url(./pictures/brea.jpg);
+    flex: 0 0 auto;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    gap: 20px;
+  }
+
+  .tablistcon {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  #tablist {
+    width: 220px;
+    height: 8px;
+    padding: 12px;
+    gap: 14px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .tab {
+    width: 8px;
+    height: 8px;
+    background-color: gray;
+    border-radius: 50%;
+  }
+  .footercon {
+    display: none;
+  }
+  .footercon2 {
+    width: 100vw;
+    height: 262px;
+    gap: 16px;
+    display: flex;
+    overflow-x: auto;
+    scrollbar-width: none;
+    flex-shrink: 0;
+  }
+  .rec1 {
+    width: 286px;
+    height: 161px;
+    background-color: #6529cf;
+    flex: 0 0 auto;
+    display: flex;
+  }
+  #text1 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 176px;
+  }
+  .rec2 {
+    width: 286px;
+    height: 161px;
+    background-color: #2a402d;
+    flex: 0 0 auto;
+    display: flex;
+  }
+  #text2 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 176px;
+  }
+  .rec3 {
+    width: 286px;
+    height: 161px;
+    background-color: #000;
+    flex: 0 0 auto;
+    display: flex;
+  }
+  #text3 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 176px;
+  }
+
+  .rec4 {
+    width: 286px;
+    height: 161px;
+    background-color: #6529cf;
+    flex: 0 0 auto;
+    display: flex;
+  }
+  .rec5 {
+    width: 286px;
+    height: 161px;
+    background-color: #2a402d;
+    flex: 0 0 auto;
+    display: flex;
+  }
+  .rec6 {
+    width: 286px;
+    height: 161px;
+    background-color: #000;
+    flex: 0 0 auto;
+    display: flex;
+  }
+  .rec7 {
+    width: 286px;
+    height: 161px;
+    background-color: #6529cf;
+    flex: 0 0 auto;
+    display: flex;
+  }
+  .rec8 {
+    width: 286px;
+    height: 161px;
+    background-color: #2a402d;
+    flex: 0 0 auto;
+    display: flex;
+  }
+  .rec9 {
+    width: 286px;
+    height: 161px;
+    background-color: #000;
+    flex: 0 0 auto;
+    display: flex;
+    margin-right: 0;
+  }
+  .rec10 {
+    width: 286px;
+    height: 161px;
+    background-color: #6529cf;
+    flex: 0 0 auto;
+    display: flex;
+    margin-right: 0;
+  }
+  .rec11 {
+    width: 286px;
+    height: 161px;
+    background-color: #2a402d;
+    flex: 0 0 auto;
+    display: flex;
+    margin-right: 0;
   }
 }

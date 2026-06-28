@@ -4,9 +4,17 @@
 }
 body {
   font-family:
-    -apple-system, BlinkMacSystemFont, "Segoe UI", "SF Pro Text",
-    "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    "SF Pro Text",
+    "SF Pro Icons",
+    "Helvetica Neue",
+    Helvetica,
+    A rial,
+    sans-serif;
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
 }
 
 #headercontainer {
@@ -219,7 +227,7 @@ body {
   gap: 12px;
 }
 
-#box1text{
+#box1text {
   opacity: 0;
 }
 .box1texts {
@@ -277,11 +285,11 @@ body {
   margin-top: 324px;
 }
 
-.box2texts{
+.box2texts {
   opacity: 1;
 }
 
-.box2text{
+.box2text {
   opacity: 0;
 }
 
@@ -322,6 +330,13 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.box3texts {
+  opacity: 1;
+}
+.box3text {
+  opacity: 0;
 }
 
 #watch {
@@ -368,6 +383,12 @@ body {
   flex-direction: column;
   align-items: center;
 }
+.box4texts {
+  opacity: 1;
+}
+.box4text {
+  opacity: 0;
+}
 
 #macBookair {
   font-size: 36px;
@@ -384,6 +405,12 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.box5texts {
+  opacity: 1;
+}
+.box5text {
+  opacity: 0;
 }
 
 #watch2 {
@@ -434,12 +461,22 @@ body {
   flex-direction: column;
   align-items: center;
 }
+.box6texts {
+  opacity: 1;
+}
+.box6text {
+  opacity: 0;
+}
 
 .threecon {
   width: 100vw;
   height: 668px;
+  display: flex;
+  flex-direction: column;
 }
-
+.con2 {
+  display: none;
+}
 .parent {
   gap: 16px;
   display: flex;
@@ -452,6 +489,7 @@ body {
   height: 668px;
   background-image: url(./pictures/disclaimer.jpg);
   flex: 0 0 auto;
+  background-size: cover;
 }
 
 .pic2 {
@@ -490,6 +528,7 @@ body {
   height: 668px;
   background-image: url(./pictures/shrinking.jpg);
   flex: 0 0 auto;
+  background-size: cover;
 }
 
 .tablistcon {
@@ -521,6 +560,9 @@ body {
   display: flex;
   overflow-x: scroll;
   scrollbar-width: none;
+}
+.footercon2 {
+  display: none;
 }
 
 .img1 {
